@@ -1,140 +1,21 @@
-<h1 align="center">New React App</h1>
+# Employee Management System
 
-<br />
+## Project Description
+This project is a simple Employee Management System built with React (TypeScript) for the frontend and Node.js with Express.js for the backend. The system allows users to add, view, update, and delete employees.
 
-This is a blank README file that you can customize at your needs.\
-Describe your project, how it works and how to contribute to it.
+## Features
+- Home Page (Table View): Displays a list of employees.
+- Add Employee Modal: Allows users to add new employees.
+- Inline Edit Employee Data: Allows users to edit employee details directly in the table.
+- API Requests with Axios: Handles API requests to the backend.
 
-<br />
+## Setup Instructions
 
-# 🚀 Available Scripts
+### Prerequisites
+- Node.js and npm installed.
 
-In the project directory, you can run:
-
-<br />
-
-## ⚡️ start
-
-```
-npm start
-```
-
-or
-
-```
-yarn start
-```
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-<br />
-
-## 🧪 test
-
-```
-npm test
-```
-
-or
-
-```
-yarn test
-```
-
-Launches the test runner in the interactive watch mode.
-
-<br />
-
-## 🦾 build
-
-```
-npm build
-```
-
-or
-
-```
-yarn build
-```
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.
-
-<br />
-
-## 🧶 lint
-
-```
-npm lint
-```
-
-or
-
-```
-yarn lint
-```
-
-Creates a `.eslintcache` file in which ESLint cache is stored. Running this command can dramatically improve ESLint's running time by ensuring that only changed files are linted.
-
-<br />
-
-## 🎯 format
-
-```
-npm format
-```
-
-or
-
-```
-yarn format
-```
-
-Checks if your files are formatted. This command will output a human-friendly message and a list of unformatted files, if any.
-
-<br />
-
-# 🧬 Project structure
-
-This is the structure of the files in the project:
-
-```sh
-    │
-    ├── public                  # public files (favicon, .htaccess, manifest, ...)
-    ├── src                     # source files
-    │   ├── components
-    │   ├── pages
-    │   ├── resources           # images, constants and other static resources
-    │   ├── store               # Redux store
-    │   │   ├── actions         # store's actions
-    │   │   └── reducers        # store's reducers
-    │   ├── styles
-    │   ├── tests               # all test files
-    │   ├── types               # data interfaces
-    │   ├── utility             # utilities functions and custom components
-    │   ├── App.tsx
-    │   ├── index.tsx
-    │   ├── react-app-env.d.ts
-    │   ├── RootComponent.tsx   # React component with all the routes
-    │   ├── serviceWorker.ts
-    │   └── setupTests.ts
-    ├── .eslintrc.js
-    ├── .gitignore
-    ├── .prettierrc
-    ├── package.json
-    ├── README.md
-    └── tsconfig.json
-```
-
-# 📖 Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-#
-
-<p align="center">Bootstrapped with Create React App.</p>
+### Backend Setup
+1. Navigate to the `backend` directory.
+2. Install dependencies:
+   ```sh
+   npm install
