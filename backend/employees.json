@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "department": "Engineering",
+    "contact": "john.doe@example.com"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "department": "Marketing",
+    "contact": "jane.smith@example.com"
+  },
+  {
+    "id": 3,
+    "name": "John Jury Viray",
+    "department": "Human Resources",
+    "contact": "jury@gmail.com"
+  },
+  {
+    "id": 4,
+    "name": "Drake Ausa",
+    "department": "IT",
+    "contact": "drake@gmail.com"
+  }
+]
